@@ -64,3 +64,21 @@ body {
   height: 210px;
   object-fit: cover;
 }
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h6 {
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.card-content p {
+  font-size: 18px;
+}
+
+.filter {
+  display: none;
+}
