@@ -7,6 +7,13 @@ const cardsFilter = (e) => {
 
   cards.forEach((card) => {
     card.classList.add("filtre");
+
+    if (
+      card.dataset.name === e.target.dataset.name ||
+      e.target.dataset.name === "tous"
+    ) {
+      card.classList.remove("filtre");
+    }
   });
 };
 
